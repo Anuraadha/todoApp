@@ -2,6 +2,38 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
+
+## Table of Contents
+
+* [Info](#Info)
+* [How to run](#HowToRun)
+* [Specifications](#Specifications)
+* [Screenshots](#Screenshots)
+
+
+
+## Info
+An offline TODO app to keep track of day to day activities.
+
+
+## How To Run
+* Download this github file or clone this repositiory to you local machine.
+* Then open index.html file in the browser.
+## Specifications
+
+This app can be used offline on any machine. User can edit and delete the task after its created. Hash Tag feature is implemented here to filter these tasks. User can click on particular tags to filter tasks. A task can be completed after clicking on it and it will be stacked in the list of completed task in the last in the order of creation.
+
+## Screenshots
+
+![Initial State](/images/todo_5.PNG)
+
+
+![Initial State](/images/todo_2.PNG)
+
+![Initial State](/images/todo_3.PNG)
+
+![Initial State](/images/todo_4.PNG)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

@@ -25,14 +25,13 @@ This app can be used offline on any machine. User can edit and delete the task a
 
 ## Screenshots
 
-![Initial State](/images/todo_5.PNG)
+![Todo App](/images/todo_5.png)
 
+![Todo App](/images/todo_2.png)
 
-![Initial State](/images/todo_2.PNG)
+![Todo App](/images/todo_3.png)
 
-![Initial State](/images/todo_3.PNG)
-
-![Initial State](/images/todo_4.PNG)
+![Todo App](/images/todo_4.png)
 
 ## Development server
 

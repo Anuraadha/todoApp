@@ -25,11 +25,19 @@ This app can be used offline on any machine. User can edit and delete the task a
 
 ## Screenshots
 
+* Overview of todo App
+
 ![Todo App](/images/todo_5.png)
+
+* Filter task list using hashtag keywords
 
 ![Todo App](/images/todo_2.png)
 
+* Edit task after creation
+
 ![Todo App](/images/todo_3.png)
+
+* Delete task
 
 ![Todo App](/images/todo_4.png)
 

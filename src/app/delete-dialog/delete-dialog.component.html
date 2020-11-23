@@ -1,0 +1,24 @@
+<div fxLayout="column" fxFlexFill>
+  <div
+    fxLayout="row wrap"
+    class="modal-section-title"
+    fxLayoutAlign="space-between center"
+  >
+    <span>Confirmation</span>
+    <button mat-icon-button mat-dialog-close>
+      <mat-icon>close</mat-icon>
+    </button>
+    <mat-divider fxFlex="100"></mat-divider>
+  </div>
+  <div mat-dialog-content fxFlex="grow" fxLayoutAlign="center center">
+    <p class="content">Are you sure you want to delete this task permanently</p>
+  </div>
+
+
+  <div mat-dialog-actions fxFlex="noshrink" fxLayout="row" fxLayoutAlign="end end">
+    <button mat-raised-button mat-dialog-close>No</button>
+    <button mat-raised-button color="primary" (click)="deleteTask()">
+      Yes
+    </button>
+  </div>
+</div>

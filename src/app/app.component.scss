@@ -1,0 +1,66 @@
+.completed {
+  background-color: #00800020;
+}
+
+.header {
+  font-size: 36px;
+  color: indigo;
+  font-weight: 900;
+}
+
+.padding {
+  padding: 24px;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.highlightText {
+  color: pink !important;
+  background: yellow;
+}
+
+.page-body {
+  min-height: 100%;
+  padding: 20px;
+  background: #d3959b;
+  background: -webkit-linear-gradient(to bottom, #bfe6ba, #d3959b);
+  background: linear-gradient(to bottom, #bfe6ba, #d3959b);
+}
+
+.todo-card {
+  width: 30%;
+  min-height: 60px;
+  border-radius: 8px;
+}
+
+.card-content {
+  font-size: 20px;
+  font-weight: 600;
+  width: 75% !important;
+}
+
+.flag {
+  font-size: 20px;
+  color: #538d22;
+}
+
+.img-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.mat-chip {
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.truncate {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.task-content {
+  width: 85% !important;
+}

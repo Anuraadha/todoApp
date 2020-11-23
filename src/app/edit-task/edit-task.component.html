@@ -1,0 +1,32 @@
+<h1 mat-dialog-title>
+  <span fxLayout="row" fxLayoutAlign="space-between none">
+    <span>Edit Task</span>
+    <button mat-icon-button mat-dialog-close aria-label="icon-button">
+      <mat-icon>close</mat-icon>
+    </button>
+  </span>
+  <mat-divider></mat-divider>
+</h1>
+
+<div mat-dialog-content>
+  <div fxFlex fxLayout="row wrap" fxLayoutAlign="center center">
+    <mat-form-field class="mat-input-field-display" fxFlex="100%">
+      <mat-label> Task</mat-label>
+      <input
+        matInput
+        [formControl]="task"
+        placeholder="Update Task"
+        (keyup.enter)="updateTask()"
+      />
+    </mat-form-field>
+  </div>
+</div>
+<div mat-dialog-actions align="end">
+  <mat-divider class="fullWidth"></mat-divider>
+  <br />
+  <div fxLayout="row" fxLayoutGap="8px" fxLayoutAlign="end center">
+    <button mat-raised-button color="primary" (click)="updateTask()">
+      Update
+    </button>
+  </div>
+</div>

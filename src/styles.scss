@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.highlightText {
+  color: #3a0ca3 !important;
+}
+
+.orange-color {
+  color: #ff9f1c !important;
+}
+
+.green-color {
+  color: #538d22 !important;
+}
+
+.selected {
+  background-color: #1c558e !important;
+  color: white !important;
+}
+
+.content {
+  margin-top: 8px;
+  font-size: 18px;
+  padding: 8px;
+  font-weight: 600;
+}
